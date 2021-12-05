@@ -1,3 +1,4 @@
+import Layout from '../components/layout'
 import Nav from '../components/nav'
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 
@@ -22,8 +23,10 @@ export default function App({ Component, pageProps }) {
     <>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
-        <Nav />
-        <Component {...pageProps} />
+        <Layout>
+          <Nav />
+          <Component {...pageProps} />
+        </Layout>
       </ThemeProvider>
     </>
   )
