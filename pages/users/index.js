@@ -23,6 +23,11 @@ export default function UsersPage() {
             <a>User Stories</a>
           </Link>
         </ListItem>
+        <ListItem>
+          <Link href="/users/needs">
+            <a>User Needs</a>
+          </Link>
+        </ListItem>
       </List>
       <BackTo href="/" label="Home Page" />
     </Container>
