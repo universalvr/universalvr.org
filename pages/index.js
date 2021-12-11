@@ -36,6 +36,11 @@ export default function IndexPage() {
             <a href="https://forms.gle/MEYJRuuWJxuTcG4u8" target="_blank">Share your story</a>
           </Link>
         </ListItem>
+        <ListItem>
+          <Link href="/w3c-proposals">
+            <a>W3C Proposals</a>
+          </Link>
+        </ListItem>
       </List>
     </Container>
   )
