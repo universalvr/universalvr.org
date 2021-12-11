@@ -5,7 +5,11 @@ import { StyledNav, StyledLogo, StyledUl, StyledLi } from './styles'
 export default function Nav() {
   return (
     <StyledNav>
-      <StyledLogo>Universal VR</StyledLogo>
+      <StyledLogo>
+        <Link href="/">
+          <a>Universal VR</a>
+        </Link>
+      </StyledLogo>
       <StyledUl>
         <StyledLi>
           <Link href="/">

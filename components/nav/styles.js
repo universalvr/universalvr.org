@@ -20,6 +20,10 @@ export const StyledLogo = styled.h1`
   flex: 2;
   font-size: 20px;
   padding: 8px;
+
+  a {
+    color: #000;
+  }
 `
 
 export const StyledUl = styled.ul`
