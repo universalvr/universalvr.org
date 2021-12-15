@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const StyledH1 = styled.h1`
+export const StyledH1 = styled.h1`
   display: flex;
   flex: 1 1 100%;
   margin: 16px 0;

@@ -15,7 +15,7 @@ const StyledJourneyImg = styled.img`
   max-width: 400px;
 
   @media only screen and ${breakpoints.device.sm} {
-    max-width: 768px;
+    max-width: 100%;
   }
 `
 

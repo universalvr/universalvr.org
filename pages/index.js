@@ -1,6 +1,6 @@
 import Container from '../components/container'
-import H1 from '../components/typography/h1'
 import H2 from '../components/typography/h2'
+import HeroSection from '../components/hero'
 import Link from 'next/link'
 import List from '../components/list'
 import ListItem from '../components/list/item'
@@ -10,7 +10,7 @@ import React from 'react'
 export default function IndexPage() {
   return (
     <Container>
-      <H1>Universal VR</H1>
+      <HeroSection alt="Woman playing VR in a wheelchair" filename="stock-01.jpg" header="Universal VR" />
 
       <P>The universalvr.org website was created to bridge the gap between end users with accessibility needs and developers.</P>
       <P>From playing a game in a fantastical land to hanging out with friends in a social app, VR provides incredibly immersive and unique experiences to its users. As this technology has grown, so has its user audience. With VR’s increasing popularity, it has become very apparent how many products lack accessibility and inclusion.</P>
@@ -45,3 +45,5 @@ export default function IndexPage() {
     </Container>
   )
 }
+
+<a href="https://crello.com/unlimited/stock-photos/314793386/stock-photo-girl-in-wheelchair-experiencing-virtual/">Photo Girl in wheelchair experiencing virtual reality created by photography33</a>

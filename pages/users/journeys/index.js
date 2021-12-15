@@ -1,6 +1,6 @@
 import BackTo from '../../../components/back-to'
 import Container from '../../../components/container'
-import H1 from '../../../components/typography/h1'
+import HeroSection from '../../../components/hero'
 import Link from 'next/link'
 import List from '../../../components/list'
 import ListItem from '../../../components/list/item'
@@ -10,7 +10,7 @@ import React from 'react'
 export default function UserJourneysPage() {
   return (
     <Container>
-      <H1>User Journeys</H1>
+      <HeroSection alt="Adult woman playing VR in a wheelchair" filename="stock-03.jpg" header="User Journeys" />
       <P>It is important to note that in each of these negative experiences, the user considers themself as part of the problem. Ideally a user should not experience this when interacting with a product. It is not the user’s disability that prevents them from interacting with a virtual environment, but rather the design of the experience. Providing additional user options and customizations will make a more inclusive product.</P>
       <List>
         <ListItem>

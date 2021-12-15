@@ -1,6 +1,6 @@
 import BackTo from '../../../components/back-to'
 import Container from '../../../components/container'
-import H1 from '../../../components/typography/h1'
+import HeroSection from '../../../components/hero'
 import H2 from '../../../components/typography/h2'
 import Link from 'next/link'
 import List from '../../../components/list'
@@ -11,7 +11,7 @@ import React from 'react'
 export default function UserStoriesPage() {
   return (
     <Container>
-      <H1>User Stories</H1>
+      <HeroSection alt="Man playing VR in a wheelchair while brother watches" filename="stock-06.jpg" header="User Stories" />
       <P></P>
       <List>
         <ListItem>

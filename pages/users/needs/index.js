@@ -1,6 +1,6 @@
 import BackTo from '../../../components/back-to'
 import Container from '../../../components/container'
-import H1 from '../../../components/typography/h1'
+import HeroSection from '../../../components/hero'
 import H2 from '../../../components/typography/h2'
 import Link from 'next/link'
 import List from '../../../components/list'
@@ -11,7 +11,7 @@ import React from 'react'
 export default function UserNeedsPage() {
   return (
     <Container>
-      <H1>User Needs</H1>
+      <HeroSection alt="Woman playing VR while sitting in chair" filename="stock-07.jpg" header="User Needs" />
       <P></P>
 
       <a href="https://docs.google.com/spreadsheets/d/1GvcGwuPBfW6g-BABTWQHjGObOd9wdiazdkqyIJ3w9BM/edit?usp=sharing" target="_blank">User needs table</a>

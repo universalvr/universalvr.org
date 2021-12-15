@@ -1,6 +1,6 @@
 import BackTo from '../../components/back-to'
 import Container from '../../components/container'
-import H1 from '../../components/typography/h1'
+import HeroSection from '../../components/hero'
 import Link from 'next/link'
 import List from '../../components/list'
 import ListItem from '../../components/list/item'
@@ -10,7 +10,7 @@ import React from 'react'
 export default function GuidelinesPage() {
   return (
     <Container>
-      <H1>Guidelines</H1>
+      <HeroSection alt="Teenage girl playing VR in a wheelchair with her mother" filename="stock-02.jpg" header="Guidelines" />
       <P>From the research and interviews conducted we have developed a set of guidelines for VR developers to communicate the needs of the end users.</P>
       <List>
         <ListItem>
