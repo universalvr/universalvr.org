@@ -22,6 +22,11 @@ export default function IndexPage() {
 
       <List>
         <ListItem>
+          <Link href="/guidelines">
+            <a>Guidelines</a>
+          </Link>
+        </ListItem>
+        <ListItem>
           <Link href="/users/journeys">
             <a>User Journeys</a>
           </Link>
@@ -34,11 +39,6 @@ export default function IndexPage() {
         <ListItem>
           <Link href="/users/stories">
             <a href="https://forms.gle/MEYJRuuWJxuTcG4u8" target="_blank">Share your story</a>
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Link href="/w3c-proposals">
-            <a>W3C Proposals</a>
           </Link>
         </ListItem>
       </List>
