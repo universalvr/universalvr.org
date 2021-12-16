@@ -1,5 +1,6 @@
 import BackTo from '../../../components/back-to'
 import Container from '../../../components/container'
+import Head from 'next/head'
 import HeroSection from '../../../components/hero'
 import H2 from '../../../components/typography/h2'
 import Link from 'next/link'
@@ -11,6 +12,10 @@ import React from 'react'
 export default function UserStoriesPage() {
   return (
     <Container>
+      <Head>
+        <title>User Stories</title>
+        <meta name="description" content="Real stories from real users." />
+      </Head>
       <HeroSection alt="Man playing VR in a wheelchair while brother watches" filename="stock-06.jpg" header="User Stories" />
       <P></P>
       <List>

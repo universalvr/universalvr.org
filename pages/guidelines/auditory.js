@@ -2,6 +2,7 @@ import BackTo from '../../components/back-to'
 import Container from '../../components/container'
 import GuidelinesList from '../../components/guideline-list'
 import H1 from '../../components/typography/h1'
+import Head from 'next/head'
 import Link from 'next/link'
 import P from '../../components/typography/p'
 import React from 'react'
@@ -63,6 +64,10 @@ const items = [
 export default function GuidelinesPage() {
   return (
     <Container>
+      <Head>
+        <title>Universal VR Guidelines: Auditory</title>
+        <meta name="description" content="Auditory Guidelines for making VR more accessible." />
+      </Head>
       <H1>Guidelines: Auditory</H1>
       <P>The auditory accessibility guidelines solve for: total or partial hearing loss, unilateral hearing, loud environments, vestibular disorders.</P>
       <GuidelinesList items={items} />

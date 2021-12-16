@@ -2,6 +2,7 @@ import BackTo from '../../components/back-to'
 import Container from '../../components/container'
 import GuidelinesList from '../../components/guideline-list'
 import H1 from '../../components/typography/h1'
+import Head from 'next/head'
 import Link from 'next/link'
 import P from '../../components/typography/p'
 import React from 'react'
@@ -49,6 +50,10 @@ const items = [
 export default function GuidelinesPage() {
   return (
     <Container>
+      <Head>
+        <title>Universal VR Guidelines: Mobility</title>
+        <meta name="description" content="Mobility Guidelines for making VR more accessible." />
+      </Head>
       <H1>Guidelines: Mobility</H1>
       <P>The mobility accessibility guidelines solve for: limited or no physical movement, difficulty or inability to grip or hold hardware such as controllers, bound to immobile objects, small spaces.</P>
       <GuidelinesList items={items} />

@@ -2,6 +2,7 @@ import BackTo from '../../components/back-to'
 import Container from '../../components/container'
 import GuidelinesList from '../../components/guideline-list'
 import H1 from '../../components/typography/h1'
+import Head from 'next/head'
 import Link from 'next/link'
 import P from '../../components/typography/p'
 import React from 'react'
@@ -59,6 +60,10 @@ const items = [
 export default function GuidelinesPage() {
   return (
     <Container>
+      <Head>
+        <title>Universal VR Guidelines: Visual</title>
+        <meta name="description" content="Visual Guidelines for making VR more accessible." />
+      </Head>
       <H1>Guidelines: Visual</H1>
       <P>The visual accessibility guidelines solve for: low vision, loss of peripheral vision, blindness, color blindness, eye strain, light sensitivity, loss of central vision, blurry vision, blindspots, lack of depth perception. Solutions to the guidelines include: haptic feedback, audio feedback, and visual enhancements.</P>
       <GuidelinesList items={items} />

@@ -1,5 +1,6 @@
 import BackTo from '../../../components/back-to'
 import Container from '../../../components/container'
+import Head from 'next/head'
 import HeroSection from '../../../components/hero'
 import P from '../../../components/typography/p'
 import React from 'react'

@@ -1,10 +1,11 @@
+import Head from 'next/head'
 import Layout from '../components/layout'
 import Nav from '../components/nav'
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background-color: #f5f6f7;
+    background-color: #b4b4b4;
     box-sizing: border-box;
     font-family: Inter, sans-serif;
     margin: 0;
@@ -26,6 +27,15 @@ const theme = {
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <meta charset="UTF-8" />
+        <meta name="keywords" content="vr, universal, universal vr, accessible, accessibility" />
+        <meta name="author" content="Universal VR Team" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="content-language" content="en-us" />
+
+        <meta property="og:locale" content="en" />
+      </Head>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
         <Layout>

@@ -14,7 +14,7 @@ export const StyledNav = styled.nav`
   }
 `
 
-export const StyledLogo = styled.h1`
+export const StyledLogo = styled.h2`
   color: #000;
   display: flex;
   flex: 2;

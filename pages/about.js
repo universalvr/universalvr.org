@@ -1,6 +1,7 @@
 import Container from '../components/container'
 import H1 from '../components/typography/h1'
 import H2 from '../components/typography/h2'
+import Head from 'next/head'
 import Link from 'next/link'
 import List from '../components/list'
 import ListItem from '../components/list/item'
@@ -10,6 +11,10 @@ import React from 'react'
 export default function AboutPage() {
   return (
     <Container>
+      <Head>
+        <title>Home</title>
+        <meta name="description" content="About this website." />
+      </Head>
       <H1>About</H1>
       <P>To better understand how to create and enable an inclusive and accessible experience for users, one has to holistically investigate the experiential issues and the production constraints. To do so, there are two major audiences to target: end users who use VR (ideally those with some sort of physical and neuro-divergence) and developers that create the systems and software.</P>
 

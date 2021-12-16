@@ -2,6 +2,7 @@ import BackTo from '../../components/back-to'
 import Container from '../../components/container'
 import GuidelinesList from '../../components/guideline-list'
 import H1 from '../../components/typography/h1'
+import Head from 'next/head'
 import Link from 'next/link'
 import P from '../../components/typography/p'
 import React from 'react'
@@ -32,6 +33,10 @@ const items = [
 export default function GuidelinesPage() {
   return (
     <Container>
+      <Head>
+        <title>Universal VR Guidelines: Cognitive</title>
+        <meta name="description" content="Cognitive Guidelines for making VR more accessible." />
+      </Head>
       <H1>Guidelines: Cognitive</H1>
       <P>The mobility accessibility guidelines solve for: dyslexia, attention deficit disorder, and intellectual disabilities.</P>
       <GuidelinesList items={items} />

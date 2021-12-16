@@ -10,6 +10,10 @@ const StyledHeroSection = styled.section`
   justify-content: center;
   margin: -16px -16px 0;
   position: relative;
+
+  ${StyledH1} {
+    justify-content: center;
+  }
 `
 
 const StyledHeroOverlay = styled.div`
